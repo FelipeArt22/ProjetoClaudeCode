@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"/Users/felipeprecoma/Felipe Claude/ProjetoClaudeCode\" && git add -A && git diff --cached --quiet || git commit -m \"auto: update project files\" && git push 2>/dev/null || true",
+            "statusMessage": "Syncing to GitHub..."
+          }
+        ]
+      }
+    ]
+  }
+}

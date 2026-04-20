@@ -11,12 +11,14 @@ ACOES = {
     "PETR4 — Petrobras": "PETR4.SA",
     "ITUB4 — Itaú Unibanco": "ITUB4.SA",
     "VALE3 — Vale": "VALE3.SA",
+    "IVVB11 — iShares S&P 500": "IVVB11.SA",
 }
 
 CORES = {
     "PETR4.SA": "#009B3A",  # verde Petrobras
     "ITUB4.SA": "#FF6600",  # laranja Itaú
     "VALE3.SA": "#003087",  # azul Vale
+    "IVVB11.SA": "#8B0000",  # vermelho escuro iShares
 }
 
 @st.cache_data(ttl=3600)
