@@ -37,7 +37,7 @@ def calcular_performance(df: pd.DataFrame) -> pd.DataFrame:
 
 
 st.title("📈 Análise de Ações 2026")
-st.caption("Cotações PETR4, ITUB4 e VALE3 — dados via Yahoo Finance")
+st.caption("Cotações PETR4, ITUB4, VALE3 e IVVB11 — dados via Yahoo Finance")
 
 with st.sidebar:
     st.header("Configurações")
